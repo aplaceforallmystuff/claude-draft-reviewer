@@ -145,10 +145,6 @@ Traditional review processes separate analysis from implementation. This agent m
 
 No suggestions. No recommendations. Just fixes with explanations.
 
-## Contributing
-
-Contributions welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
-
 ## License
 
 MIT License - see [LICENSE](LICENSE)
