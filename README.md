@@ -31,6 +31,11 @@ The agent runs a 3-phase workflow:
 1. **Slop Detection** - Identifies AI-generated patterns (requires `slop-detector` skill)
 2. **Craft Rules Audit** - Checks writing mechanics (requires `craft-rules` skill)
 3. **Voice Check** - Validates voice consistency (requires `voice-editor` skill)
+4. **Factual Accuracy** - Verifies claims in first-person/experiential content against source material
+
+### Optional: Local LLM Cost Optimization
+
+If you have a local LLM available (e.g., via Ollama), the agent can run a quick pre-scan to classify drafts by severity before running full analysis. This can reduce token costs by 40-50% for clean drafts. See the agent file's `<cost_optimization>` section for details.
 
 ## Prerequisites
 
@@ -120,6 +125,7 @@ Applying fixes...
 - Major structural reorganization
 - Content additions or deletions
 - Anything that changes meaning
+- Unverifiable factual claims in first-person content (removed or genericized rather than left in)
 
 ## Configuration
 
