@@ -1,6 +1,21 @@
 {
   "name": "claude-draft-reviewer",
+  "displayName": "Draft Reviewer",
   "description": "Review and fix drafts for AI slop, writing craft, and voice consistency.",
   "version": "1.0.0",
-  "author": { "name": "Jim Christian", "email": "hello@jimchristian.net" }
+  "author": {
+    "name": "Jim Christian",
+    "email": "hello@jimchristian.net",
+    "url": "https://jimchristian.net"
+  },
+  "homepage": "https://github.com/aplaceforallmystuff/claude-draft-reviewer#readme",
+  "repository": "https://github.com/aplaceforallmystuff/claude-draft-reviewer",
+  "license": "MIT",
+  "keywords": [
+    "writing",
+    "editing",
+    "ai-slop",
+    "voice",
+    "review"
+  ]
 }
