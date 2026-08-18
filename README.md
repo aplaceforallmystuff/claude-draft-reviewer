@@ -24,7 +24,7 @@ This agent eliminates that gap by being a **fixer, not just a reporter**.
 ```bash
 # In Claude Code:
 /plugin marketplace add aplaceforallmystuff/marketplace
-/plugin install claude-draft-reviewer@jim-christian
+/plugin install claude-draft-reviewer@aplaceforallmystuff
 ```
 
 <details>
