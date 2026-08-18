@@ -1,0 +1,6 @@
+{
+  "name": "claude-draft-reviewer",
+  "description": "Review and fix drafts for AI slop, writing craft, and voice consistency.",
+  "version": "1.0.0",
+  "author": { "name": "Jim Christian", "email": "hello@jimchristian.net" }
+}
